@@ -48,17 +48,17 @@
     <ClInclude Include="Math01.hpp">
       <Filter>ヘッダー ファイル\FastContainer\FastFunctions</Filter>
     </ClInclude>
-    <ClInclude Include="Math02.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="Calculation01.hpp">
+      <Filter>ヘッダー ファイル\FastContainer\FastFunctions</Filter>
     </ClInclude>
     <ClInclude Include="Extraction.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>ヘッダー ファイル\FastContainer\FastFunctions</Filter>
     </ClInclude>
-    <ClInclude Include="Calculation01.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="Math02.hpp">
+      <Filter>ヘッダー ファイル\FastContainer\FastFunctions</Filter>
     </ClInclude>
     <ClInclude Include="Calculation02.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>ヘッダー ファイル\FastContainer\FastFunctions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
