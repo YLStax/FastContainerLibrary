@@ -13,12 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ヘッダー ファイル\FastContainer">
+      <UniqueIdentifier>{7cab2a67-2215-4c82-afef-bbdead40c7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\FastContainer\FastFunctions">
+      <UniqueIdentifier>{3d30fd9a-3664-4031-b100-075873f6079e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.hpp">
+      <Filter>ヘッダー ファイル\FastContainer\FastFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.hpp">
+      <Filter>ヘッダー ファイル\FastContainer\FastFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="FastContainerLibrary.hpp">
+      <Filter>ヘッダー ファイル\FastContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="FastMatrix.hpp">
+      <Filter>ヘッダー ファイル\FastContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="FastVector.hpp">
+      <Filter>ヘッダー ファイル\FastContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplyFunction.hpp">
+      <Filter>ヘッダー ファイル\FastContainer\FastFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Math01.hpp">
+      <Filter>ヘッダー ファイル\FastContainer\FastFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Math02.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Extraction.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculation01.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculation02.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
