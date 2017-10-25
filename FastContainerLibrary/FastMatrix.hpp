@@ -8,11 +8,30 @@ namespace FastContainer {
 	class FastMatrix {
 	public:
 		FastMatrix() {}
+		FastMatrix(int row, int col) { entity.resize(row * col); row_size = row; column_size = col; }
 		FastMatrix(std::vector<T>& vec, int row, int col) {
 			FAST_CONTAINER_EXCEPTION_CHECK(vec.size() == row * col, fast_container_exception());
 			entity = vec;
 			row_size = row;
 			column_size = col;
+		}
+		FastMatrix(FastVector<T>& vec, int row) {
+			row_size = row;
+			column_size = vec.get_size() / row_size;
+			FAST_CONTAINER_EXCEPTION_CHECK(row_size * column_size == vec.get_size(), fast_container_exception());
+			entity = vec.get_entity();
+		}
+		FastMatrix(std::vector<std::vector<T>> mat) {
+			row_size = mat.size();
+			column_size = mat[0].size();
+			entity.resize(row_size * column_size);
+			for (int i = 0; i < row_size; i++) {
+				FAST_CONTAINER_EXCEPTION_CHECK(column_size == mat[i].size(), fast_container_exception());
+				T offset = i * column_size;
+				for (int j = 0; j < column_size; j++) {
+					entity[offset + j] = mat[i][j];
+				}
+			}
 		}
 		~FastMatrix() {}
 

@@ -8,6 +8,7 @@ namespace FastContainer {
 	class FastVector {
 	public:
 		FastVector() {}
+		FastVector(int size) { entity.resize(size); this->size = size; }
 		FastVector(std::vector<T>& vec) { this->size = vec.size(); entity = vec; }
 		~FastVector() {}
 
